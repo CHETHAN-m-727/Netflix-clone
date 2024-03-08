@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* Resetting margin and padding for all elements */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Making sure the body and html take up full height of the viewport */
+      html,
+      body {
+        height: 100%;
+      }
+
+      /* Flexbox styles to center the form */
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .Form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <form
+      class="Form"
+      onsubmit="event.preventDefault(); /* Add your submit handler function here */"
+    >
+      <input type="text" placeholder="name" />
+      <input type="password" placeholder="password" />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

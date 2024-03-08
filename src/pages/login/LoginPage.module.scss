@@ -1,0 +1,110 @@
+.logInPage {
+  /* max-width: 1200px !important; */
+  width: 100vw;
+  height: 100vh;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/c38a2d52-138e-48a3-ab68-36787ece46b3/eeb03fc9-99c6-438e-824d-32917ce55783/IN-en-20240101-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  header {
+    margin-top: 0px;
+    background-color: black;
+    width: 100%;
+  }
+  .LoginContainer {
+    min-height: 80%;
+    width: 25%;
+    background-color: rgb(1, 1, 1, 0.8);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    max-width: 80vh;
+    .SigIN {
+      padding: 30px;
+      color: white;
+      font-size: xx-large;
+      font-weight: bolder;
+    }
+    .LoginForm {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      input {
+        border: 0.1px solid white;
+        background-color: black;
+        color: white;
+        height: 50px;
+        width: 70%;
+        margin: auto;
+        border-radius: 5px;
+        // padding: 1.5rem 1rem 0.5rem;
+      }
+      button {
+        border: 0.1px solid white;
+        min-height: 40px;
+        width: 70%;
+        background-color: #c01a0f;
+        color: white;
+        font-weight: bold;
+        font-size: large;
+        border-radius: 5px;
+      }
+    }
+    .ForgotPassword {
+      padding: 10px;
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: large;
+    }
+    .CheckBox {
+      margin: auto;
+      margin-top: 5px;
+      margin-left: 15%;
+      margin-bottom: 3px;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: large;
+    }
+    .sineUp {
+      margin: auto;
+      display: flex;
+      gap: 5px;
+      margin-top: 5px;
+      margin-left: 15%;
+      align-items: center;
+      justify-content: center;
+      color: rgb(170, 162, 162);
+      font-size: medium;
+      margin-bottom: 4px;
+      .sineUpNow {
+        font-size: larger;
+        color: white;
+        font-weight: 700;
+      }
+    }
+    .LearnMore {
+      margin: auto;
+      margin-top: 5px;
+      margin-left: 15%;
+      margin-bottom: 20px;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: small;
+      a {
+        color: aqua;
+      }
+    }
+  }
+}
